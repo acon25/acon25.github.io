@@ -28,7 +28,6 @@ p, li {
 }
 @media screen and (max-width: 500px) {
 	p, li {
-		font-size: 0.8em;
 		padding-left: 0px;
 	}
 }
