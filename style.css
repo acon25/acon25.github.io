@@ -1,48 +1,73 @@
-body{margin: 0 auto;
+body {
+	margin: 0 auto;
 	max-width: 900px;
-	padding-bottom:40px;}
-@media screen and (max-width: 500px){body{margin: 20px;}}
+	padding-bottom:40px;
+}
 
-.bound{margin: 0px 20px 0px 20px; /*top right bottom left*/}
-@media screen and (max-width: 500px){.bound{margin: 0;}}
+@media screen and (max-width: 500px) {
+	body {
+		margin: 20px;
+	}
+}
 
-p, ul{
+.bound {
+	margin: 0px 20px 0px 20px; /*top right bottom left*/
+}
+
+@media screen and (max-width: 500px) {
+	.bound {
+		margin: 0;
+	}
+}
+
+p, ul {
 	color: black;
 	font-family: 'Helvetica Neue', 'Arial', sans-serif;
 	font-size: 0.869em;
 	font-weight: 200;
 	letter-spacing: 0.05em;
 	line-height: 1.86em;
-	}
+}
 
-@media screen and (max-width: 500px){
-	p, ul{
+@media screen and (max-width: 500px) {
+	p, ul {
 		font-size: 1em;
 		padding-left: 0px;
 	}
 }
 
-::-moz-selection {color: #A1BCCC;}
-::selection {color: #A1BCCC;}
+::-moz-selection { color: #A1BCCC; }
+::selection { color: #A1BCCC; }
 
-a{text-decoration: underline;
+a {
+	text-decoration: underline;
 	transition: color 0.1s ease-in-out;
-	color: black;}
-a:visited {text-decoration: underline;}
-a:hover {color: #A1BCCC !important;}
+	color: black;
+}
+a:visited { text-decoration: underline; }
+a:hover { color: #A1BCCC !important; }
 
-.header{height: 70px;
-	padding-bottom: 5px;}
+.header {
+	height: 70px;
+	padding-bottom: 5px;
+}
 
-hr{margin-bottom: 30px;
-	color: color: #D3D3D3;
+hr {
+	margin-bottom: 30px;
+	color: #D3D3D3;
 	height: 1px;
 	background-color: #D3D3D3;
-    border: 0 none;}
-@media screen and (max-width: 500px){hr{display: none;}}
+	border: 0 none;
+}
+
+@media screen and (max-width: 500px) {
+	hr {
+		display: none;
+	}
+}
 
 
-.title{
+.title {
 	color: black;
 	font-family: 'Helvetica Neue', 'Arial', sans-serif;
 	font-size: 36px;
@@ -50,25 +75,30 @@ hr{margin-bottom: 30px;
 	float: left;
 	margin: 22px 0px 0px 0px; /*top right bottom left*/
 	line-height: 120%;
-	}
-@media screen and (max-width: 500px){
-.title{float: none;
-	text-align: center;
-	font-size: 2em;
-	line-height: 1.8em;}}
-@media screen and (max-width: 350px){
+}
+@media screen and (max-width: 500px) {
 	.title{
+		float: none;
+		text-align: center;
+		font-size: 2em;
+		line-height: 1.8em;
+	}
+}
+@media screen and (max-width: 350px) {
+	.title {
 		font-size: 1.7em;
 		padding-left: 0px;
 	}
 }
 
-.hellowide{
+/* top hello */
+
+.hellowide {
 	float: right;
 	margin-top: 47px;
 	line-height: 10px;
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px) {
 	.hellowide{
 		display: none;
 		float: none;
@@ -76,21 +106,28 @@ hr{margin-bottom: 30px;
 	}
 }
 
-.hellothin{
-	display: none;
+/* bottom hello */
+
+li.hellothin {
+	display:none;
 }
-@media screen and (max-width: 500px){
-	.hellothin{
+
+@media screen and (max-width: 500px) {
+	li.hellothin {
 		display: inline-block;
 	}
 }
-.social{
+
+
+/* social */
+
+.social {
 	width: 100%;
 	margin: 0 auto;
 	padding: 30px 0px 0px 0px; /*top right bottom left*/
 	text-align: left;
 }
-.social-bottom{
+.social-bottom {
 	width: 100%;
 	display: none;
 	text-align: center;
@@ -102,74 +139,47 @@ hr{margin-bottom: 30px;
     margin: 0 auto;
     text-align: center;
 }
-@media screen and (max-width: 350px){
+@media screen and (max-width: 350px) {
 	.social li {
 	    width: 28%;
 	    text-align: center;
 	}
-	.social-bottom{
-		display: block;
-		width: 100%;
-		margin: 0 auto;
-		text-align: center;
-
-	}
-	.social-bottom li {
-		display: table-cell;
-	    width: auto;
-	    white-space: nowrap;
-	    width: 32%;
-	    margin: 0 auto;
-	    text-align: center;
-	    padding-top: 20px;
-	}
 }
-@media screen and (max-width: 350px){
-	.social{
+
+@media screen and (max-width: 350px) {
+	.social {
 		padding: 30px 0px 0px 0px; /*top right bottom left*/
 		width:100%;
 	}
-	.social-bottom{
-		width: 90%;
-		padding-left: 25px;
-	}
-}
-.cvthin, .hellothin{
-	display:none;
-}
-@media screen and (max-width: 500px){
-	.cvthin, .hellothin{
-		display:table-cell;
-	}
-	.cvwide{
-		display: none;
-	}
 }
 
-.image{
+/* img */
+
+.image {
 	float: left;
 	width: 315px;
 	margin: 5px 30px 5px 0px; /*top right bottom left*/
 }
-img{
+img {
 	padding-top: 6px;
 	width: 315px;
 }
 
-@media screen and (max-width: 500px){
-	.image{
+@media screen and (max-width: 500px) {
+	.image {
 		float: none;
 		width: 100%;
 		margin: 0 auto;
 		padding-bottom: 10px;
 		margin: 0px 0px 5px 0px; /*top right bottom left*/
 	}
-	img{
+	img {
 		padding-top: 0px;
 		width: 100%
 	}
 }
-@media screen and (max-width: 350px){
-	.image{
+@media screen and (max-width: 350px) {
+	.image {
 		margin: 0px 0px 0px 0px; /*top right bottom left*/
+	}
 }
