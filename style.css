@@ -20,9 +20,9 @@ body {
 
 p, li {
 	color: black;
-	font-family: 'Helvetica Neue', 'Arial', sans-serif;
-	font-size: 16px;
-	font-weight: 200;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
 	letter-spacing: 0.05em;
 	line-height: 1.86em;
 }
@@ -32,8 +32,8 @@ p, li {
 	}
 }
 
-::-moz-selection { color: #A1BCCC; }
-::selection { color: #A1BCCC; }
+::-moz-selection { color: #bf9000; }
+::selection { color: #bf9000; }
 
 a {
 	text-decoration: underline;
@@ -41,7 +41,7 @@ a {
 	color: black;
 }
 a:visited { text-decoration: underline; }
-a:hover { color: #A1BCCC !important; }
+a:hover { color: #bf9000 !important; }
 
 .header {
 	height: 70px;
@@ -65,8 +65,9 @@ hr {
 
 .title {
 	color: black;
-	font-family: 'Helvetica Neue', 'Arial', sans-serif;
-	font-size: 36px;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 500;
+	font-size: 40px;
 	letter-spacing: 0.04em;
 	float: left;
 	margin: 22px 0px 0px 0px; /*top right bottom left*/
