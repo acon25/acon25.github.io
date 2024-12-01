@@ -32,8 +32,8 @@ p, li {
 	}
 }
 
-::-moz-selection { color: #bf9000; }
-::selection { color: #bf9000; }
+::-moz-selection { color: #ebff33; }
+::selection { color: #ebff33; }
 
 a {
 	text-decoration: underline;
@@ -41,7 +41,7 @@ a {
 	color: black;
 }
 a:visited { text-decoration: underline; }
-a:hover { color: #bf9000 !important; }
+a:hover { color: #ebff33 !important; }
 
 .header {
 	height: 70px;
